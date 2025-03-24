@@ -4,5 +4,6 @@
   alt="BridgeLabz Logo:a Bridge to Employment through a Lab Works" width="200"/>
 </div>
 <div>
-  <input [(ngModel)]="userName"/><br/><br/>
+  <input (input)="onInput($event)" [(ngModel)]="userName"/>
+  <span class = "error-output">{{this.nameError}}</span>
 </div>
