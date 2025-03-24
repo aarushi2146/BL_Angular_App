@@ -1,2 +1,5 @@
-<h1>{{ message }}</h1>
-<img [src]="logoUrl" alt="BridgeLabz Logo" width="200">
+<div>
+  <h1>{{ message }}</h1>
+  <img [src]="logoUrl" (click)="onClick($event)"
+  alt="BridgeLabz Logo:a Bridge to Employment through a Lab Works" width="200"/>
+</div>
