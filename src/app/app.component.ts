@@ -9,6 +9,7 @@ export class AppComponent {
   message: string = "Hello from BridgeLabz";
   logoUrl = 'assets/BridgeLabzlogo.png';
   url = "https://www.bridgelabz.com";
+  userName: string = "";
 
   onClick($event){
     console.log("Save button is clicked", $event);

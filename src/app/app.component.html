@@ -1,5 +1,8 @@
 <div>
-  <h1>{{ message }}</h1>
+  <h1>Hello {{this.userName}} from BridgeLabz</h1>
   <img [src]="logoUrl" (click)="onClick($event)"
   alt="BridgeLabz Logo:a Bridge to Employment through a Lab Works" width="200"/>
+</div>
+<div>
+  <input [(ngModel)]="userName"/><br/><br/>
 </div>
